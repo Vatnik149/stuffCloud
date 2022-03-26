@@ -1,0 +1,60 @@
+.img{
+    object-fit: inherit;
+    width: 500px;
+    height: 620px;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    left: -5px;
+}
+
+.text{
+font-size: 50px;
+font-family: 'TT Norms';
+}
+.text-about{
+    margin-left: 3%;
+    font-family: 'TT Norms';
+}
+
+.desc-container{
+    margin-top:15%;
+}
+.text-desc{
+    margin-top: 5%;
+    font-size: 20px;
+    font-family: 'TT Norms';
+}
+.buttons-desc{
+    margin-top: 7%;
+    margin-left: 3%;
+    font-family: 'TT Norms';
+}
+.feedback{
+    width: 200px;
+    height: 50px;
+    border: 3px solid black;
+    border-radius: 15px;
+    background-color: rgb(255, 255, 255);
+}
+.take-order{
+    border: none;
+    width: 200px;
+    height: 50px;
+    margin-left: 2%;
+    border-radius: 15px;
+    color: aliceblue;
+    background-color: rgb(33, 71, 197);
+    font-family: 'TT Norms';
+}
+
+@font-face {
+    font-family: 'TT Norms';
+    src: local('TT Norms Bold'), local('TT-Norms-Bold'),
+        url('TTNorms-Bold.woff2') format('woff2'),
+        url('TTNorms-Bold.woff') format('woff'),
+        url('TTNorms-Bold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+  }
+
